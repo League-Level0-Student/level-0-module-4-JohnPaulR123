@@ -47,9 +47,19 @@ public class HappyPet {
 	
 		
 	void cuddle() {
-	if (pet==0){
+	if (pet==3){
 	JOptionPane.showMessageDialog(null, "Squeak Squeak");		
 	}
+	if (pet==2){
+	JOptionPane.showMessageDialog(null, "Chirp Chirp");		
+	}
+	if (pet==1){
+	JOptionPane.showMessageDialog(null, "Purr Purr");		
+	}
+	if (pet==0){
+	JOptionPane.showMessageDialog(null, "Bark Bark");		
+	}
+		
 	happinessLevel+=2;
 	}
 	
