@@ -10,7 +10,7 @@ public class HappyPet {
 	static String petType;
 	public static void main(String[] args) {
 		// 1. Ask the user what kind of pet they want to buy, and store their answer in a variable
-		pet = JOptionPane. showOptionDialog(null, "What pet would you like", null, 0, JOptionPane.INFORMATION_MESSAGE, null,
+		pet = JOptionPane. showOptionDialog(null, "What Pet Would You Like?", null, 0, JOptionPane.INFORMATION_MESSAGE, null,
 				new String[] { "Dog", "Cat", "Bird", "Hamster" }, null);
 		if (pet==3) {
 			petType="Hamster";
