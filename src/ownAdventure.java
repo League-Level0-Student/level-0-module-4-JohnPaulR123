@@ -85,7 +85,8 @@ JOptionPane.showMessageDialog(null, "You said yes. It couldn't leave your head a
 	}
 
 	static void inOut() {
-
+JOptionPane.showMessageDialog(null, "You went to In-n-Out.");
+JOptionPane.showMessageDialog(null, "");
 	}
 
 	static void mall() {
