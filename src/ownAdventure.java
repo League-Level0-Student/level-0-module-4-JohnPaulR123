@@ -34,7 +34,7 @@ public class ownAdventure {
 			three();
 			JOptionPane.showMessageDialog(null, "After school, your valentine asked if you wanted to do something.");
 			JOptionPane.showMessageDialog(null, "You said yes.");
-			place = JOptionPane.showOptionDialog(null, "She ask you where do you want to take her.", "Title", 0,
+			place = JOptionPane.showOptionDialog(null, "She asked you where do you want to take her.", "Title", 0,
 					JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Movie", "IN-N-OUT", "The Mall", "Del Mar" },
 					null);
 			if (place == 0) {
